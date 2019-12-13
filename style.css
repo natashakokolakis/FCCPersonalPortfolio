@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Satisfy|Open+Sans+Condensed:300");
+ 
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  background-color: #33bbff;
+  
+}
+
+header { 
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 80px;
+	z-index: 1;
+}
+
+nav {
+	  display: flex;
+    background: #002233;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+header nav ul{
+	display: flex;
+	list-style-type: none;
+  margin-left: 300px;
+}
+
+.nav-link {
+	padding: 10px;
+	text-decoration: none;
+	margin: 20px;
+	color: white;
+	line-height: 50px;
+}
+
+.nav-link:hover {
+  color: #33bbff;
+}
+
+#name {
+  position: fixed;
+  left: 100px;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: 'Satisfy', cursive;
+  color: white;
+}
+
+main {
+ margin-top: 70px; 
+ 
+}
+
+#welcome-section {
+  background-image: url("http://i.imgur.com/jNrYKsP.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about {
+  font: 25px "Open Sans Condensed";
+  color: white;
+}
+
+#me {
+  font: 18px "Josefin Sans";
+}
+
+main h2 {
+  font: bold 30px "Josefin Sans";
+}
+
+img {
+  max-height: 150px;
+  padding: 20px 60px;
+}
+
+#projects {
+  background-color: #e6f7ff;
+} 
+
+.project-tile {
+  max-height: 250px;
+}
+
+
+@media screen and (max-width:650px) {
+img {
+max-height: 100px;
+}
+}
